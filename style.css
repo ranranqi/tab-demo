@@ -1,0 +1,28 @@
+ul {
+    height: 24px;
+    width: 300px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+ul>li {
+    float: left;
+    margin-right: 20px;
+    list-style: none;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+.box {
+    border: 1px solid red;
+    width: 300px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+.content {
+    text-align: center;
+    padding-top: 30%;
+    display: none;
+}
