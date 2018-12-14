@@ -1,28 +1,36 @@
-ul {
-    height: 24px;
+ul{
+    height: 20px;
     width: 300px;
-    border: 1px solid red;
+    background: rgb(51, 192, 117);
     border-radius: 5px;
     margin: 0 auto;
 }
 
-ul>li {
+ul>li{
     float: left;
     margin-right: 20px;
     list-style: none;
-    border: 1px solid green;
     border-radius: 5px;
+    cursor: pointer;
+}
+ul>li.active{
+  background: rgb(246, 246, 245);
+  display: block;
 }
 
-.box {
-    border: 1px solid red;
+.box{
     width: 300px;
     height: 200px;
-    margin: 20px auto;
+    margin: 0 auto;
+    background: rgb(246, 246, 245);
 }
 
-.content {
+.content{
     text-align: center;
-    padding-top: 30%;
+    padding-top: 21%;
+    font-size: 55px;
     display: none;
+}
+.content.active{
+  display: block;
 }
